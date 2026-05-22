@@ -2,7 +2,7 @@
 
 int main () {
 
-double area, raio, pi; // float = menos preciso e ocupa menos memÛria / float = mais preciso e ocupa mais memÛria
+double area, raio, pi; // float = menos preciso e ocupa menos mem√≥ria / float = mais preciso e ocupa mais mem√≥ria
 
 pi = 3.14159;
 
@@ -10,9 +10,9 @@ printf("Qual o valor do raio"); // essa linha foi apagada pro beecrowd aceitar
 
 scanf("%lf", &raio);  // no double se usa %lf
 
-area = pi * (raio * raio);  // j· e È elevado a 2, È melhor fazer raio * raio, do q raio * 2
+area = pi * (raio * raio);  // j√° q √© elevado a 2, √© melhor fazer raio * raio, do q raio * 2
 
-printf("A=%.4lf\n", area); // 4 =  casas decimais depois da vÌrgula/ponto.
+printf("A=%.4lf\n", area); // 4 =  casas decimais depois da v√≠rgula/ponto.
 
 return 0;
 
