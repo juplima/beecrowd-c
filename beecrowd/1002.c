@@ -2,7 +2,7 @@
 
 int main () {
 
-double area, raio, pi; // float = menos preciso e ocupa menos memória / float = mais preciso e ocupa mais memória
+double area, raio, pi; // float = menos preciso e ocupa menos memória / double = mais preciso e ocupa mais memória
 
 pi = 3.14159;
 
